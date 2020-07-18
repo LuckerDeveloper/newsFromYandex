@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        newsList.add("a");
         adapter = new ArrayAdapter( this, android.R.layout.simple_list_item_1, newsList );
         ListView listView= findViewById(R.id.listView);
         listView.setAdapter(adapter);
