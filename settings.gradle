@@ -1,0 +1,2 @@
+rootProject.name='News From Yandex'
+include ':app'
